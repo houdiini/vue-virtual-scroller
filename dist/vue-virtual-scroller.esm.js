@@ -1123,7 +1123,7 @@ var __vue_render__$1 = function() {
             items: _vm.itemsWithSize,
             "min-item-size": _vm.minItemSize,
             direction: _vm.direction,
-            "key-field": "id"
+            keyField: _vm.keyField
           },
           on: { resize: _vm.onScrollerResize, visible: _vm.onScrollerVisible },
           scopedSlots: _vm._u(
