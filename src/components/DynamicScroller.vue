@@ -4,7 +4,7 @@
     :items="itemsWithSize"
     :min-item-size="minItemSize"
     :direction="direction"
-    key-field="id"
+    :keyField="keyField"
     v-bind="$attrs"
     @resize="onScrollerResize"
     @visible="onScrollerVisible"
